@@ -1,0 +1,209 @@
+.nav {
+    background-color: white;
+    border-bottom: 1px solid #E4E4E4;
+    display: flex;
+    align-items: center;
+    // padding-left: 25px;
+    // padding-right: 35px;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 1;
+
+    &.dark {
+        background-color: #111;
+        border-bottom: 1px solid #262626;
+    }
+    
+
+    .wrapper {
+
+        display: flex;
+        align-items: center;
+        width: 100%;
+
+        .logo {
+            display: flex;
+            align-items: center;
+            width: 100px;
+            height: 100px;
+            border-right: 1px solid #E4E4E4;
+            border-bottom: 1px solid #E4E4E4;
+            z-index: 3;
+
+            &.dark {
+                border-right: 1px solid #262626;
+                border-bottom: 1px solid #262626;
+            }
+            
+        }
+
+        .fullItemsBar {
+
+            padding-left: 60px;
+            padding-right: 70px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .itemsLeft {
+
+                display: flex;
+                align-items: center;
+                gap: 60px;
+
+                .item-light {
+                    font-size: 16px;
+                    font-family: MonaSansRegular;
+                    cursor: pointer;
+                    color: #BFBFBF;
+                    transition: ease-in-out 0.25s;
+                    width: 50px;
+                
+                    &.active {
+                        font-family: MonaSansSemiBold;
+                        color: #111;
+                    }
+
+                    &:hover {
+                        transform: translateY(-3px);
+                        transition: transform 0.25s;
+                    }
+                    
+                }
+
+                .item-dark {
+                    font-size: 16px;
+                    font-family: MonaSansRegular;
+                    cursor: pointer;
+                    color: #3d3d3d;
+                    transition: ease-in-out 0.25s;
+                    width: 50px;
+                
+                    &.active {
+                        font-family: MonaSansSemiBold;
+                        color: #FFF;
+                    }
+
+                    &:hover {
+                        transform: translateY(-3px);
+                        transition: transform 0.25s;
+                    }
+                }
+
+            }
+
+            .itemsRight {
+
+                display: flex;
+                align-items: center;
+                gap: 60px;
+
+                a {
+                    text-decoration: none;
+                }
+
+                .buttonMain-light {
+                    cursor: pointer;
+                    font-size: 16px;
+                    font-family: MonaSansMedium;
+                    color: white;
+                    padding: 10px 20px 10px 20px;
+                    background-color: #111;
+                    border-radius: 24px;
+                    
+                    display: flex;
+                    align-items: center;
+
+                    transition: all 0.25s;
+
+                    &:hover {
+                        background-color: #000;
+                        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+                    }
+
+                    .icon {
+                        padding-left: 6px;
+                        width: 24px;
+                        height: 24px;
+                    }
+                    
+                }
+
+                .buttonMain-dark {
+                    cursor: pointer;
+                    font-size: 16px;
+                    font-family: MonaSansMedium;
+                    color: #111;
+                    padding: 10px 20px 10px 20px;
+                    background-color: #FFF;
+                    border-radius: 24px;
+                    border: 2px solid white;
+                    
+                    display: flex;
+                    align-items: center;
+
+                    transition: all 0.25s;
+
+                    &:hover {
+                        color: #000;
+                        box-shadow: 0 0px 15px rgba(255, 255, 255, 0.25);
+                    }
+
+                    .icon {
+                        padding-left: 6px;
+                        width: 24px;
+                        height: 24px;
+                    }
+                    
+                }
+            
+                .themeIcon-light {
+                    cursor: pointer;
+                    width: 45px;
+                    height: 45px;
+                    background-color: #111;
+                    border-radius: 50%;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+
+                    transition: all 0.25s;
+
+                    &:hover {
+                        background-color: #000;
+                        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+                    }
+                    
+                }
+
+                .themeIcon-dark {
+                    cursor: pointer;
+                    width: 45px;
+                    height: 45px;
+                    background-color: #FFF;
+                    border-radius: 50%;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #111;
+
+                    transition: all 0.25s;
+                    border: 2px solid white;
+                    
+                    &:hover {
+                        color: black;
+                        box-shadow: 0 0px 15px rgba(255, 255, 255, 0.25);
+                    }
+                    
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,48 @@
+.hero {
+    padding-left: 50px;
+    // padding-right: 60px;
+    padding-top: 160px;
+    height: 60vh;
+    width: 100%;
+
+    .wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 40px;
+        align-items: flex-end;
+
+        .titleContainer {
+    
+            .title {
+                font-size: 100px;
+                font-family: MonaSansExtraBold;
+                color: #111111;
+                line-height: 95%;
+    
+                &.indent {
+                    padding-left: 90px;
+                    
+                }
+
+                &.dark {
+                    color: white;
+                }
+            }
+        }
+
+        .textContent {
+            text-align: right;
+            line-height: 130%;
+            font-size: 24px;
+            width: 700px;
+            transform: translateY(160px);
+        
+            &.dark {
+                color: white;
+            }
+        }
+    }
+    
+}

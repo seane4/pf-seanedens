@@ -1,0 +1,158 @@
+.about {
+    padding: 60px 0px 60px 50px;
+    width: 100%;
+    
+    &.dark {
+        color: white;
+    }
+
+    .wrapper {
+
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+
+        .title {
+
+        }
+
+        .desc {
+            font-size: 36px;
+            font-family: MonaSansMedium;
+            line-height: 130%;
+        }
+
+        .container {
+
+            display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 30px;
+
+            .imgContainer {
+                height: 400px;
+
+                img {
+                    border-radius: 8px;
+                }
+            }
+
+            [data-aos^=fade][data-aos^=fade].aos-animate {
+                width: 100%;
+            
+                .trait {
+                    
+                    background-color: transparent;
+                    border: 2px solid #111;
+                    border-radius: 6px;
+                    height: 400px;
+                    width: 100%;
+
+                    &.dark {
+                        border: 2px solid white;
+                    }
+
+                    .traitWrapper {
+
+                        height: calc(100% - 60px);
+                        padding: 30px;
+                        width: auto;
+
+                        .traitContainer {
+                            
+                            height: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+        
+                            .traitTitle {
+                                font-family: MonaSansSemiBold;
+                                display: flex;
+                                font-size: 18px;
+                                align-items: center;
+        
+                                .icon {
+                                    padding-right: 6px;
+                                    display: flex;
+                                    align-items: center;
+
+                                }
+                            }
+                            .traitDesc {
+                                line-height: 130%;
+                                min-width: 200px;
+                                font-size: 18px;
+                                font-family: MonaSansRegular;
+                            }
+                        }
+                    }
+
+                }
+            }
+
+            
+        }
+    
+        .mainProcessCardContainer {
+
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            width: 100%;
+
+            .card {
+
+                width: 40%;
+                border-radius: 12px;
+                background-color: #111;
+
+                &.right {
+
+                    align-self: flex-end;
+                }
+
+                .cardWrapper {
+
+                    gap: 60px;
+                    padding: 40px;
+                    display: flex;
+                    align-items: start;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    
+
+                    .topCard {
+
+                        display: flex;
+                        align-items: center;
+
+                        .icon {
+                            color: white;
+                            width: 34px;
+                            height: 34px;
+                            padding-right: 10px;
+                        }
+
+                        .heading {
+                            color: white;
+                            font-size: 24px;
+                            font-family: MonaSansSemiBold;
+                            line-height: 130%;
+                            width: 70%;
+                        }
+                    }
+                    .botCard {
+
+                        .cardDesc {
+                            color: white;
+                            font-size: 18px;
+                            font-family: MonaSansRegular;
+                            line-height: 130%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

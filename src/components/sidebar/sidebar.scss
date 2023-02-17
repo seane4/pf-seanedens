@@ -1,0 +1,40 @@
+.sidebar {
+    height: 100vh;
+    min-width: 100px;
+    background-color: white;
+    border-right: 1px solid #E4E4E4;
+    position: fixed;
+
+
+    &.dark {
+        background-color: #111;
+        border-right: 1px solid #262626;
+
+    }
+
+    .wrapper {
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 100%;
+
+
+        .iconsContainer {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding-bottom: 30px;
+            gap: 10px;
+
+            .icon {
+
+                &:hover {
+
+                }
+            }
+        }
+    }
+}

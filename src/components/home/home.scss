@@ -1,0 +1,20 @@
+.home {
+
+    &.dark {
+        background-color: #111;
+    }
+
+    .container {
+        display: flex;
+        
+
+        .content {
+            padding-left: 100px;
+            width: calc(100vw - 220px);
+            display: flex;
+            flex-direction: column;
+            gap: 100px;
+            
+        }
+    }
+}
