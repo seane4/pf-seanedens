@@ -4,12 +4,13 @@ import Sidebar from '../sidebar/Sidebar'
 import Hero from '../hero/Hero';
 import "./home.scss"
 import Projects from '../projects/Projects';
+import ProjectsMobile from '../projects/projectsMobile/ProjectsMobile';
 import About from "../about/About"
 import Contact from "../contact/Contact"
 import { ThemeProvider, useTheme } from "../../ThemeContext";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 //fonts
 import "../../fonts/Mona-Sans-ExtraBold.woff2";
@@ -28,7 +29,16 @@ function Home() {
     AOS.init();
   }, [])
 
-  
+  const [projectWidth, setProjectWidth] = useState(window.innerWidth);
+  const projectBreakpoint = 1330;
+
+  useEffect(() => {
+  const handleWindowResize = () => setProjectWidth(window.innerWidth)
+  window.addEventListener("resize", handleWindowResize);
+
+  return () => window.removeEventListener("resize", handleWindowResize);
+  }, [])
+
   return (
     <div className={theme === "light" ? "home" : "home dark"}>
         <Nav/>
@@ -36,7 +46,7 @@ function Home() {
           <Sidebar/>
           <div className="content">
             <Hero/>
-            <Projects/>
+            {projectWidth > projectBreakpoint ? <Projects/> : <ProjectsMobile/>}
             <About/>
             <Contact/>
 

@@ -31,64 +31,73 @@
             gap: 30px;
 
             .imgContainer {
-                height: 400px;
+                height: 100%;
 
                 img {
                     border-radius: 8px;
                 }
             }
 
-            [data-aos^=fade][data-aos^=fade].aos-animate {
+            .traitsContainer {
+
+                display: flex;
+                flex-direction: row;
                 width: 100%;
-            
-                .trait {
+                gap: 30px;
+
+                    [data-aos^=fade][data-aos^=fade].aos-animate {
+                        width: 100%;
                     
-                    background-color: transparent;
-                    border: 2px solid #111;
-                    border-radius: 6px;
-                    height: 400px;
-                    width: 100%;
-
-                    &.dark {
-                        border: 2px solid white;
-                    }
-
-                    .traitWrapper {
-
-                        height: calc(100% - 60px);
-                        padding: 30px;
-                        width: auto;
-
-                        .traitContainer {
+                        .trait {
                             
-                            height: 100%;
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: space-between;
+                            background-color: transparent;
+                            border: 2px solid #111;
+                            border-radius: 6px;
+                            height: 400px;
+                            width: 100%;
         
-                            .traitTitle {
-                                font-family: MonaSansSemiBold;
-                                display: flex;
-                                font-size: 18px;
-                                align-items: center;
+                            &.dark {
+                                border: 2px solid white;
+                            }
         
-                                .icon {
-                                    padding-right: 6px;
+                            .traitWrapper {
+        
+                                height: calc(100% - 60px);
+                                padding: 30px;
+                                width: auto;
+        
+                                .traitContainer {
+                                    
+                                    height: 100%;
                                     display: flex;
-                                    align-items: center;
-
+                                    flex-direction: column;
+                                    justify-content: space-between;
+                
+                                    .traitTitle {
+                                        font-family: MonaSansSemiBold;
+                                        display: flex;
+                                        font-size: 18px;
+                                        align-items: center;
+                
+                                        .icon {
+                                            padding-right: 6px;
+                                            display: flex;
+                                            align-items: center;
+        
+                                        }
+                                    }
+                                    .traitDesc {
+                                        line-height: 130%;
+                                        min-width: 200px;
+                                        font-size: 18px;
+                                        font-family: MonaSansRegular;
+                                    }
                                 }
                             }
-                            .traitDesc {
-                                line-height: 130%;
-                                min-width: 200px;
-                                font-size: 18px;
-                                font-family: MonaSansRegular;
-                            }
+        
                         }
                     }
 
-                }
             }
 
             

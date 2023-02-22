@@ -1,13 +1,14 @@
 import "./projects.scss"
 import LCI from "./LCI_Updated2.svg"
 import LCI2 from "./LCI_Updated2_Corners.svg"
+import LCI_Width from "./LCI_AdjustedWidth.svg"
 import CallMadeIcon from '@mui/icons-material/CallMade'
 import TeerlyIMG from "./Teerly_Updated_Corner.svg"
 import CenteIMG from "./Cente_Updated_Corner.svg"
 import { ThemeProvider, useTheme } from "../../ThemeContext";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import { useState, useEffect } from "react"
 
 function Projects() {
 
@@ -18,13 +19,7 @@ function Projects() {
       <section id="Work">
 
       <div className="wrapper">
-        <div 
-        // data-aos="fade-right"
-        // data-aos-once="true"
-        // data-aos-easing="ease-in-sine"
-        // data-aos-duration="600"
-        // data-aos-anchor-placement="top-bottom"
-        className={theme === "light" ? "title" : "title dark"}>
+        <div className={theme === "light" ? "title" : "title dark"}>
           //PROJECTS
         </div>
         <div className="projectGroup">
@@ -53,7 +48,7 @@ function Projects() {
                 </div>
               </div>
               <div className="imageContainer">
-                <img src={LCI2} />
+                <img src={LCI_Width} />
               </div>
             </div>
           </div>

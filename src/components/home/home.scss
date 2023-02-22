@@ -18,3 +18,217 @@
         }
     }
 }
+
+@media only screen and (width < 1800px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about .wrapper .container .imgContainer img {
+        width: 100%;
+    }
+
+    #About > div > div.desc {
+        font-size: 30px;
+    }
+
+    // #About > div > div.container > div:nth-child(2) {
+    //     justify-content: initial;
+    //     gap: 20px;
+    // }
+
+    #About > div > div.container {
+        gap: 60px;
+    }
+
+    #About > div > div.container > div.traitsContainer > div:nth-child(n+0) > div {
+        border: none;
+        height: initial;
+    }
+
+    .about .wrapper .container .traitsContainer [data-aos^=fade][data-aos^=fade].aos-animate .trait .traitWrapper .traitContainer {
+        justify-content: initial;
+        gap: 20px;
+    }
+
+    #About > div > div.container > div.traitsContainer {
+        gap: 0px;
+    }
+
+
+}
+
+@media only screen and (width < 1700px) {
+
+    .hero .wrapper .titleContainer .title {
+        font-size: 75px;
+    }
+
+    #Contact > div > div.aos-init.aos-animate > div {
+        font-size: 75px;
+    }
+
+    .hero .wrapper {
+        gap: initial;
+    }
+
+    .hero .wrapper .textContent {
+        font-size: 20px;
+        width: 525px;
+    }
+    
+    .projects .wrapper .projectGroup .project .projectWrapper .imageContainer img {
+        height: auto;
+        max-width: 100%;
+    }
+
+    .projects .wrapper .projectGroup .project .projectWrapper .content {
+        max-width: 40%;
+    }
+
+    #Work > div > div.projectGroup > div:nth-child(n+0) > div > div > div.content > div.topContent > span.desc {
+        font-size: 18px;
+    }
+
+    #Work > div > div.projectGroup > div:nth-child(n+0) > div > div > div.content > div.topContent > span.projectTitle {
+        font-size: 28px;
+    }
+
+    #Work > div > div.projectGroup > div:nth-child(1) > div > div > div.content > div.topContent > span.desc {
+        width: 100%;
+    }
+
+    #About > div > div.container > div.traitsContainer > div:nth-child(n+0) > div > div > div > div.traitDesc {
+        font-size: 16px;
+    }
+
+    @media only screen and (width < 1600px) {
+
+        .projects .wrapper .projectGroup .project .projectWrapper .content {
+            justify-content: initial;
+            gap: 40px;
+        }
+
+        #About > div > div.desc {
+            font-size: 24px;
+        }
+
+        #Work > div > div.projectGroup > div:nth-child(n+0) > div > div > div.content > div.topContent > span.desc {
+            width: 100%;
+            font-size: 16px;
+        }
+
+    }
+
+    @media only screen and (width < 1400px) {
+    
+        #About > div > div.container > div.traitsContainer > div:nth-child(n+0) > div > div > div > div.traitTitle {
+            font-size: 16px;
+        }
+
+        #About > div > div.container > div.traitsContainer > div:nth-child(n+0) > div > div > div > div.traitDesc {
+            font-size: 16px;
+        }
+
+        #Work > div > div.projectGroup > div:nth-child(n+0) > div > div > div.content > div.bottomContent > div > a:nth-child(n+0) > button, .projects .wrapper .projectGroup .project .projectWrapper .content .bottomContent .buttonGroup .mainButton-dark  {
+            font-size: 14px;
+            padding: 8px 16px 8px 16px;
+        }
+
+        #Work > div > div.projectGroup > div:nth-child(n+0) > div > div > div.content > div.topContent > span.desc {
+            width: 100%;
+        }
+
+        .projects .wrapper .projectGroup .project .projectWrapper .content {
+            justify-content: initial;
+            gap: 30px;
+        }
+
+        #root > div > div > div.nav > div > div.fullItemsBar > div.itemsRight > a > button, #root > div > div > div.nav.dark > div > div.fullItemsBar > div.itemsRight > a > button {
+            font-size: 14px;
+            padding: 8px 16px 8px 16px;
+        }
+
+        #Work > div > div.projectGroup {
+            gap: 30px;
+        }
+    }
+
+    @media only screen and (width < 1330px) {
+        
+        .hero .wrapper .titleContainer .title {
+            width: 100%;
+        }
+
+        // #Home > div > div.aos-init.aos-animate > div {
+        //     font-size: 18px;
+        // }
+    
+        #About > div > div.container > div.traitsContainer {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media only screen and (width < 1250px) {
+    
+        .hero .wrapper .titleContainer .title {
+            font-size: 60px;
+        }
+    
+        #Contact > div > div.aos-init.aos-animate > div {
+            font-size: 60px;
+        }
+
+        .hero .wrapper .textContent {
+            font-size: 18px;
+            width: auto;
+        }
+
+    }
+
+    @media only screen and (width < 1000px) {
+
+        #Home > div > div.titleContainer {
+            align-self: flex-start;
+        }
+
+        #Home > div {
+            flex-direction: column;
+        }
+
+        .hero .wrapper .textContent {
+            width: 525px;
+        }
+
+        #About > div > div.desc {
+            font-size: 20px;
+        }
+
+        .contact .wrapper .formContainer form .formContent {
+            flex-direction: column;
+            font-size: 14px;
+        }
+
+        .contact .wrapper .formContainer form .formContent .right {
+            width: 100%;
+        }
+
+        .contact .wrapper .formContainer form .formContent .left .fieldBody .inputClass {
+            width: initial;
+        }
+
+        #Contact > div > div.formContainer > form > div > div.left {
+            gap: initial;
+            flex-direction: initial;
+            width: 100%;
+            justify-content: space-between;
+        }
+
+        .contact .wrapper .formContainer form .formContent .right .messageBody .textareaClass {
+            font-size: 16px;
+        }
+    }
+}
