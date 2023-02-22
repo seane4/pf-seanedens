@@ -65,6 +65,10 @@
                                 font-size: 16px;
                                 padding: 16px;
             
+                                &:focus {
+                                    outline: 2px solid black;
+                                }
+
                                 &:empty {
                                     border: 1px solid #BFBFBF;
                                 }
@@ -73,6 +77,10 @@
                                     color: white;
                                     background-color: #111;
 
+                                    &:focus {
+                                        outline: 2px solid white;
+                                    }
+                                    
                                     &:empty {
                                         border: 1px solid #262626;
                                     }
@@ -101,6 +109,10 @@
                                 padding: 16px;
                                 height: 100%;
 
+                                &:focus {
+                                    outline: 2px solid black;
+                                }
+
                                 &:empty {
                                     border: 1px solid #BFBFBF;
                                 }
@@ -109,6 +121,10 @@
 
                                     color: white;
                                     background-color: #111;
+
+                                    &:focus {
+                                        outline: 2px solid white;
+                                    }
 
                                     &:empty {
                                         border: 1px solid #262626;
@@ -127,6 +143,7 @@
                     padding: 10px 30px 10px 30px;
                     background-color: #111;
                     border-radius: 24px;
+                    border: 1px solid #111;
                     
                     display: flex;
                     align-items: center;
@@ -149,7 +166,7 @@
                     padding: 10px 30px 10px 30px;
                     background-color: white;
                     border-radius: 24px;
-                    border: 2px solid white;
+                    border: 1px solid white;
                     
                     display: flex;
                     align-items: center;

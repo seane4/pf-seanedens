@@ -191,6 +191,27 @@
 
     @media only screen and (width < 1000px) {
 
+        #root > div > div > div.container > div.content > div.hero {
+            padding-left: 0px;
+        }
+
+        #root > div > div > div.container > div.content {
+            padding-left: 60px;
+            width: calc(100vw - 130px);
+        }
+
+        #root > div > div > div.container > div.content > div.projectsMobile {
+            padding-left: 0px;
+        }
+
+        #root > div > div > div.container > div.content > div.contact {
+            padding-left: 0px;
+        }
+
+        #root > div > div > div.container > div.content > div.about {
+            padding: 60px 0px 60px 0px;
+        }
+
         #Home > div > div.titleContainer {
             align-self: flex-start;
         }
@@ -230,5 +251,173 @@
         .contact .wrapper .formContainer form .formContent .right .messageBody .textareaClass {
             font-size: 16px;
         }
+
+        .nav .wrapper .fullItemsBar .itemsRight {
+            gap: 30px;
+        }
+
+        .nav .wrapper .fullItemsBar {
+            justify-content: flex-end;
+        }
+
+        #root > div > div > div.nav > div > div.logo {
+            padding-left: 30px;
+            width: 75px;
+            height: 75px;
+            border: none;
+        }
     }
+
+    @media only screen and (width < 800px) {
+    
+        #Work > div > div.mobileProjectGroup {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        .hero .wrapper .titleContainer .title.indent {
+            padding-left: 60px;
+        }
+
+        #Contact > div > div.formContainer > form > div > div.left {
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+
+        .contact .wrapper .formContainer form .formContent .left .fieldBody {
+            flex-grow: 1;
+        }
+
+        #About > div > div.container > div.traitsContainer > div:nth-child(n+0) > div > div > div > div.traitDesc {
+            font-size: 16px;
+        }
+
+        #About > div > div.container > div.traitsContainer {
+            grid-template-columns: repeat(1, 1fr); 
+        }
+
+        #About > div > div.container > div.traitsContainer > div:nth-child(n+0) > div > div {
+            padding: 30px 0px 30px 0px;
+        }
+
+        #About > div > div.container {
+            gap: 30px;
+        }
+
+        #Home > div > div.aos-init.aos-animate > div {
+            max-width: calc(100vw - 140px)
+        }
+
+        #Home > div > div.titleContainer > div > div.title.indent {
+            width: initial;
+        }
+
+        #root > div > div > div.container > div.content {
+            width: calc(100vw - 90px);
+            padding-left: 40px;
+        }
+
+        #root > div > div > div.nav > div > div.fullItemsBar {
+            padding-right: 50px;
+        }
+
+    }
+
+    @media only screen and (width < 615px) {
+
+        #Home > div > div.aos-init.aos-animate > div {
+            font-size: 16px;
+        }
+
+        #Home > div > div.titleContainer > div > div:nth-child(n+0) {
+            font-size: 50px;
+        }
+
+        #Contact > div > div.aos-init.aos-animate > div {
+            font-size: 50px;
+        }
+
+        #About > div > div.desc {
+            font-size: 18px;
+        }
+
+        .nav .wrapper .fullItemsBar .itemsRight {
+            gap: 15px;
+        }
+
+        #About > div > div.container > div.aos-init.aos-animate > div > img {
+            height: 200px;
+            object-fit: cover;
+            object-position: 75%;
+        }
+    }
+
+    @media only screen and (width < 550px) {
+        
+        #Home > div > div.titleContainer > div > div:nth-child(n+0) {
+            font-size: 45px;
+        }
+
+        #Contact > div > div.aos-init.aos-animate > div {
+            font-size: 45px;
+        }
+
+        #Contact > div > div.footer {
+            font-size: 12px;
+            text-align: center;
+        }
+
+        #root > div {
+            overflow-x: hidden;
+        }
+
+    }
+    
+    @media only screen and (width < 550px) {
+    
+        #Home > div > div.aos-init.aos-animate > div {
+            max-width: initial;
+            width: 100%;
+        }
+
+        #root > div > div > div.container > div.content {
+            padding-left: 30px;
+        }
+
+        #root > div > div > div.nav > div > div.logo {
+            padding-left: 20px;
+        }
+
+        #root > div > div > div.container > div.content {
+            width: calc(100vw - 75px);
+        }
+
+        #root > div > div > div.nav > div > div.fullItemsBar {
+            padding-right: 45px;
+        }
+    
+    }
+
+    @media only screen and (width < 550px) {
+    
+        #Home > div > div.titleContainer > div > div:nth-child(n+0) {
+            font-size: 45px;
+        }
+        
+
+        #root > div > div > div.container > div.content {
+            width: calc(100vw - 60px);
+        }
+
+        #root > div > div > div.nav > div > div.fullItemsBar {
+            padding-right: 30px;
+        }
+    }
+
+    @media only screen and (width < 450px) {
+       
+        #Home > div > div.titleContainer > div > div:nth-child(n+0) {
+            font-size: 35px;
+        }
+    }
+    
 }

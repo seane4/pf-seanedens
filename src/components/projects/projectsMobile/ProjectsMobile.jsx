@@ -23,7 +23,7 @@ function ProjectsMobile() {
                 //PROJECTS
             </div>
             <div className="mobileProjectGroup">
-                <div data-aos="fade-up" data-aos-once="true" data-aos-easing="ease-in-sine" data-aos-duration="800" data-aos-anchor-placement="top-center">
+                <div data-aos="fade-up" data-aos-once="true" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-anchor-placement="center-center">
                     <div className="projectItem">
                         <img src={LCI_Compact}/>
                         <div className="projectContentContainer">
@@ -44,7 +44,7 @@ function ProjectsMobile() {
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-up" data-aos-once="true" data-aos-easing="ease-in-sine" data-aos-duration="800" data-aos-anchor-placement="top-center">
+                <div data-aos="fade-up" data-aos-once="true" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-delay="300" data-aos-anchor-placement="center-center">
                     <div className="projectItem">
                         <img src={Teerly_Compact}/>    
                         <div className="projectContentContainer">
@@ -65,7 +65,7 @@ function ProjectsMobile() {
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-up" data-aos-once="true" data-aos-easing="ease-in-sine" data-aos-duration="800" data-aos-anchor-placement="top-center">
+                <div data-aos="fade-up" data-aos-once="true" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-delay="500" data-aos-anchor-placement="top-center">
                     <div className="projectItem">
                         <img src={Cente_Compact}/>
                         <div className="projectContentContainer">

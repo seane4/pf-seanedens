@@ -41,9 +41,9 @@ function Home() {
 
   return (
     <div className={theme === "light" ? "home" : "home dark"}>
-        <Nav/>
+        <Nav width={projectWidth}/>
         <div className="container">
-          <Sidebar/>
+          {projectWidth < 1000 ? "" : <Sidebar/>}
           <div className="content">
             <Hero/>
             {projectWidth > projectBreakpoint ? <Projects/> : <ProjectsMobile/>}
