@@ -1,11 +1,9 @@
 {
   "files": {
-    "main.css": "/pf-seanedens/static/css/main.3cd7b2a8.css",
-    "main.js": "/pf-seanedens/static/js/main.687ce610.js",
+    "main.css": "/pf-seanedens/static/css/main.36eb30b6.css",
+    "main.js": "/pf-seanedens/static/js/main.784d43bc.js",
     "static/media/Cente_Updated_Corner.svg": "/pf-seanedens/static/media/Cente_Updated_Corner.786a3eabdcda23b1adc1a75526c0b331.svg",
     "static/media/Teerly_Updated_Corner.svg": "/pf-seanedens/static/media/Teerly_Updated_Corner.9f1dab7de19e47c627be01c3cc79f3d7.svg",
-    "static/media/LCI_Updated2.svg": "/pf-seanedens/static/media/LCI_Updated2.71dd8766f6d3063f21580f072c26d7a5.svg",
-    "static/media/LCI_Updated2_Corners.svg": "/pf-seanedens/static/media/LCI_Updated2_Corners.33c4e57742bc19e151ea28d94fe41eb6.svg",
     "static/media/LCI_AdjustedWidth.svg": "/pf-seanedens/static/media/LCI_AdjustedWidth.95898163fa27ad99bc2edf8739e68312.svg",
     "static/media/SeanPic2Banner.png": "/pf-seanedens/static/media/SeanPic2Banner.20b8ebe7d4c9e57360d7.png",
     "static/media/Teerly_Compact.png": "/pf-seanedens/static/media/Teerly_Compact.45dbd631a0d8dfe9f693.png",
@@ -19,11 +17,11 @@
     "static/media/Mona-Sans-Medium.woff2": "/pf-seanedens/static/media/Mona-Sans-Medium.1d13d02c97c2fffe114f.woff2",
     "static/media/Mona-Sans-Regular.woff2": "/pf-seanedens/static/media/Mona-Sans-Regular.a47070a36b8d14d04d88.woff2",
     "index.html": "/pf-seanedens/index.html",
-    "main.3cd7b2a8.css.map": "/pf-seanedens/static/css/main.3cd7b2a8.css.map",
-    "main.687ce610.js.map": "/pf-seanedens/static/js/main.687ce610.js.map"
+    "main.36eb30b6.css.map": "/pf-seanedens/static/css/main.36eb30b6.css.map",
+    "main.784d43bc.js.map": "/pf-seanedens/static/js/main.784d43bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cd7b2a8.css",
-    "static/js/main.687ce610.js"
+    "static/css/main.36eb30b6.css",
+    "static/js/main.784d43bc.js"
   ]
 }
