@@ -9,7 +9,7 @@
         opacity: 0;
         background: #111;
         width: 100%;
-        height: -webkit-fill-available;
+        height: 100%;
         transition: all ease-in-out 0.2s;
         display: flex;
         flex-direction: column;
@@ -22,7 +22,7 @@
     
         &.open {
             padding-top: 30px;
-            padding-bottom: 30px;
+            // padding-bottom: 30px;
             visibility: visible;
             opacity: 1;
             display: flex;
@@ -89,6 +89,7 @@
         }
 
         .socialWrapper {
+            padding-bottom: 60px;
             display: flex;
             align-items: center;
             text-align: center;
