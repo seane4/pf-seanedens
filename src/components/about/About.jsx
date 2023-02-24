@@ -37,33 +37,21 @@ function About() {
       <section id="About">
 
       <div className="wrapper">
-        <div 
-        // data-aos="fade-right"
-        // data-aos-easing="ease-in-sine"
-        // data-aos-duration="800"
-        // data-aos-once="true"
-        // data-aos-anchor-placement="bottom-center"
-        className="title">//ABOUT</div>
+        <div className="title">//ABOUT</div>
         
-        <div 
-        // data-aos="fade-right"
-        // data-aos-easing="ease-in-sine"
-        // data-aos-duration="800"
-        // data-aos-once="true"
-        // data-aos-anchor-placement="top-center"
-        className="desc">
+        <div className="desc">
           Design and development are ways of thinking that I combine to read between the lines. In any situation, I enjoy being pragmatic, kind, empathetic, and open to all possibilities. I’m always jotting down notes, taking walks to reflect on things, and catching up with friends over their newest hobbies or ideas.
         </div>
 
         <div className="container">
-          <div data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-once="true" data-aos-anchor-placement="top-center">
+          <div data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-once="true" data-aos-anchor-placement="center-bottom">
             <div className="imgContainer">
               <img src={width < photoBreakpoint ? SeanPic2Banner : SeanPic2} />
             </div>
           </div>
           
           <div className="traitsContainer">
-            <div data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="900" data-aos-once="true" data-aos-anchor-placement="center-center">
+            <div data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-delay="300" data-aos-once="true" data-aos-anchor-placement="center-bottom">
               <div className={theme === "light" ? "trait" : "trait dark"}>
                 <div className="traitWrapper">
                   <div className="traitContainer">
@@ -74,7 +62,7 @@ function About() {
               </div>
             </div>
 
-            <div data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="1200" data-aos-once="true" data-aos-anchor-placement="center-center">
+            <div data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-delay="400" data-aos-once="true" data-aos-anchor-placement="center-bottom">
               <div className={theme === "light" ? "trait" : "trait dark"}>
                 <div className="traitWrapper">
                   <div className="traitContainer">
@@ -85,7 +73,7 @@ function About() {
               </div>
             </div>
 
-            <div data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="1500" data-aos-once="true" data-aos-anchor-placement="center-center">
+            <div data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-delay="500" data-aos-once="true" data-aos-anchor-placement="center-bottom">
               <div className={theme === "light" ? "trait" : "trait dark"}>
                 <div className="traitWrapper">
                   <div className="traitContainer">
@@ -96,7 +84,7 @@ function About() {
               </div>
             </div>
 
-            <div data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="1800" data-aos-once="true" data-aos-anchor-placement="center-center">
+            <div data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-delay="600" data-aos-once="true" data-aos-anchor-placement="center-bottom">
               <div className={theme === "light" ? "trait" : "trait dark"}>
                 <div className="traitWrapper">
                   <div className="traitContainer">
@@ -109,67 +97,6 @@ function About() {
           </div>
           
         </div>
-
-        {/* <div className="title">OUTLINING MY CREATIVE PROCESS</div>
-      
-        <div className="mainProcessCardContainer">
-
-          
-
-          <div className="card">
-            <div className="cardWrapper">
-              <div className="topCard">
-                <ErrorIcon className="icon"/>
-                <div className="heading">HUMAN-CENTERED FRUSTRATION</div>
-              </div>
-              <div className="botCard">
-                <div className="cardDesc">
-                  Speaking with users to understand their frustration keeps me centered as a designer. This could be reading into larger macro-trends, or learning more about a specific workflow.
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div className="card right">
-            <div className="cardWrapper">
-              <div className="topCard">
-                <LightbulbIcon className="icon"/>
-                <div className="heading">DEFINE & PRIORITIZE</div>
-              </div>
-              <div className="botCard">
-                <div className="cardDesc">
-                  Simple, understandable insights are the by-product of clear thinking and true empathy. I believe that when I can digest a problem end-to-end, collaboration becomes much easier. This allows me to connect big-picture product ideas with the fine details of specific experience obstacles.
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="card">
-            <div className="cardWrapper">
-              <div className="topCard">
-                <FeedbackIcon className="icon"/>
-                <div className="heading">GETTING EARLY FEEDBACK</div>
-              </div>
-              <div className="botCard">
-                <div className="cardDesc">
-                  Early feedback is crucial for validating assumptions, testing hypotheses, and identifying issues before investing significant resources. This stage involves gathering user feedback through things like user testing and other forms of research to inform future product iterations.
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="card right">
-            <div className="cardWrapper">
-              <div className="topCard">
-                <Groups3Icon className="icon"/>
-                <div className="heading">CONTINUOUS COLLABORATION</div>
-              </div>
-              <div className="botCard">
-                <div className="cardDesc">
-                  It's crucial to recognize that ongoing communication and alignment are key to the success of any project. By remaining open to feedback and regularly sharing progress with the team, we can ensure that our ideas are aligned with user needs and overall business goals.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </div>
       </section>
     </div>

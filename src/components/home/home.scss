@@ -1,5 +1,119 @@
 .home {
 
+    .menuWrapper {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 992;
+        visibility: hidden;
+        opacity: 0;
+        background: #111;
+        width: 100%;
+        height: -webkit-fill-available;
+        transition: all ease-in-out 0.2s;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &.dark {
+            background-color: whitesmoke;
+        }
+
+    
+        &.open {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            visibility: visible;
+            opacity: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .close {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-self: center;
+            width: 50px;
+            height: 50px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            border: none;
+
+            &.dark {
+                background-color: #111;
+
+                .icon {
+                    color: white;
+                }
+            }
+
+            .icon {
+                color: white;
+            }
+        }
+
+        .itemWrapper {
+
+            color: white;
+            font-size: 35px;
+
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+            text-align: center;
+
+            .item {
+                font-family: MonaSansExtraBold;
+                color: rgba(255, 255, 255, 0.1);
+            
+                &.active {
+                    color: white;
+                }
+            }
+
+            &.dark {
+                color: #111;
+
+                .item {
+                    color: #BFBFBF;
+
+                    &.active {
+                        color: #111;
+                    }
+                }
+            }
+        }
+
+        .socialWrapper {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            gap: 20px;
+            font-size: 16px;
+            color: white;
+
+            .social {
+
+                &.dark {
+                    font-family: MonaSansMedium;
+                    color: #111;
+                }
+            }
+
+            a {
+                color: inherit;
+                text-decoration: none;
+            }
+        }
+    }
+
+
+
     &.dark {
         background-color: #111;
     }
@@ -320,6 +434,12 @@
             padding-right: 50px;
         }
 
+        .scrollbutton .icon-light {
+            box-shadow: none;
+            color: white;
+            background-color: #111;
+        }
+
     }
 
     @media only screen and (width < 615px) {
@@ -349,6 +469,7 @@
             object-fit: cover;
             object-position: 75%;
         }
+
     }
 
     @media only screen and (width < 550px) {
@@ -370,10 +491,6 @@
             overflow-x: hidden;
         }
 
-    }
-    
-    @media only screen and (width < 550px) {
-    
         #Home > div > div.aos-init.aos-animate > div {
             max-width: initial;
             width: 100%;
@@ -394,11 +511,7 @@
         #root > div > div > div.nav > div > div.fullItemsBar {
             padding-right: 45px;
         }
-    
-    }
 
-    @media only screen and (width < 550px) {
-    
         #Home > div > div.titleContainer > div > div:nth-child(n+0) {
             font-size: 45px;
         }
@@ -411,12 +524,18 @@
         #root > div > div > div.nav > div > div.fullItemsBar {
             padding-right: 30px;
         }
+
     }
 
     @media only screen and (width < 450px) {
        
         #Home > div > div.titleContainer > div > div:nth-child(n+0) {
             font-size: 35px;
+        }
+
+        #root > div > div > div.container > div.scrollbutton > svg {
+            box-shadow: none;
+            border: 1px solid #e9e9e9;
         }
     }
     

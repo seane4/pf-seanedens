@@ -1,6 +1,4 @@
 import "./projects.scss"
-import LCI from "./LCI_Updated2.svg"
-import LCI2 from "./LCI_Updated2_Corners.svg"
 import LCI_Width from "./LCI_AdjustedWidth.svg"
 import CallMadeIcon from '@mui/icons-material/CallMade'
 import TeerlyIMG from "./Teerly_Updated_Corner.svg"

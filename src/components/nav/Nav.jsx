@@ -10,10 +10,10 @@ import * as Scroll from 'react-scroll';
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import { ThemeProvider, useTheme } from "../../ThemeContext";
 
-function Nav({width}) {
+function Nav({width, menuOpen, setMenuOpen}) {
 
   const { theme, toggleTheme } = useTheme();
-  const [menuOpen, setMenuOpen] = useState(false)
+  
 
   return (
     <div className={theme === "light" ? "nav" : "nav dark"}>

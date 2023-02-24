@@ -28,7 +28,7 @@ function Contact() {
 
       <div className="wrapper">
         //CONTACT
-        <div data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-once="true" data-aos-anchor-placement="center-center">
+        <div data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-once="true" data-aos-anchor-placement="center-bottom">
           <div className={theme === "light" ? "heading" : "heading dark"}>LET'S<br/>EXCHANGE<br/>IDEAS</div>
         </div>
 
