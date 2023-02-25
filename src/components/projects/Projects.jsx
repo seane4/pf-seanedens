@@ -1,8 +1,8 @@
 import "./projects.scss"
-import LCI_Width from "./LCI_AdjustedWidth.svg"
+import LCIIMG_PNG from "./LCI_WebCoverPNG.png"
 import CallMadeIcon from '@mui/icons-material/CallMade'
-import TeerlyIMG from "./Teerly_Updated_Corner.svg"
-import CenteIMG from "./Cente_Updated_Corner.svg"
+import TeerlyIMG_PNG from "./Teerly_WebCoverPNG.png"
+import CenteIMG_PNG from "./Cente_WebCoverPNG.png"
 import { ThemeProvider, useTheme } from "../../ThemeContext";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -46,7 +46,7 @@ function Projects() {
                 </div>
               </div>
               <div className="imageContainer">
-                <img src={LCI_Width} />
+                <img src={LCIIMG_PNG} />
               </div>
             </div>
           </div>
@@ -78,7 +78,7 @@ function Projects() {
                 </div>
               </div>
               <div className="imageContainer">
-                <img src={TeerlyIMG} />
+                <img src={TeerlyIMG_PNG} />
               </div>
             </div>
           </div>
@@ -110,7 +110,7 @@ function Projects() {
                 </div>
               </div>
               <div className="imageContainer">
-                <img src={CenteIMG} />
+                <img src={CenteIMG_PNG} />
               </div>
             </div>
           </div>

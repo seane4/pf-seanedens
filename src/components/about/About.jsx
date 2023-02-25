@@ -1,17 +1,9 @@
 import "./about.scss"
-import SeanPic from "./SeanPic.png"
 import SeanPic2 from "./SeanPic2.png"
 import SeanPic2Banner from "./SeanPic2Banner.png"
-import BookmarkIcon from '@mui/icons-material/Bookmark';
-import MenuBookOutlinedIcon from '@mui/icons-material/MenuBookOutlined';
 import BookmarksOutlinedIcon from '@mui/icons-material/BookmarksOutlined';
 import QueryStatsOutlinedIcon from '@mui/icons-material/QueryStatsOutlined';
 import SettingsSuggestOutlinedIcon from '@mui/icons-material/SettingsSuggestOutlined';
-import QueryBuilderOutlinedIcon from '@mui/icons-material/QueryBuilderOutlined';
-import ErrorIcon from '@mui/icons-material/Error';
-import LightbulbIcon from '@mui/icons-material/Lightbulb';
-import FeedbackIcon from '@mui/icons-material/Feedback';
-import Groups3Icon from '@mui/icons-material/Groups3';
 import AirlineStopsIcon from '@mui/icons-material/AirlineStops';
 import { ThemeProvider, useTheme } from "../../ThemeContext";
 import AOS from 'aos';
