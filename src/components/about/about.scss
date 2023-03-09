@@ -27,7 +27,7 @@
             display: flex;
             width: 100%;
             justify-content: space-evenly;
-            align-items: center;
+            // align-items: center;
             gap: 30px;
 
             .imgContainer {
@@ -50,14 +50,17 @@
                     
                         .trait {
                             
-                            background-color: transparent;
-                            border: 2px solid #111;
+                            
+                            border: 1.5px solid #dfdfdf;
                             border-radius: 6px;
                             height: 400px;
                             width: 100%;
+                            background-color: #f9f9f9;
+
         
                             &.dark {
-                                border: 2px solid white;
+                                background-color: #181818;
+                                border: 1.5px solid #262626;
                             }
         
                             .traitWrapper {
