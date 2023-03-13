@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.67f9900b.css",
-    "main.js": "/static/js/main.33e0e1b6.js",
+    "main.css": "/static/css/main.fb21812f.css",
+    "main.js": "/static/js/main.fa9eac33.js",
     "static/media/SeanPic2Banner.png": "/static/media/SeanPic2Banner.20b8ebe7d4c9e57360d7.png",
     "static/media/Teerly_Compact.png": "/static/media/Teerly_Compact.45dbd631a0d8dfe9f693.png",
     "static/media/Cente_Compact.png": "/static/media/Cente_Compact.f2aea8623334b1e72e6b.png",
@@ -16,11 +16,11 @@
     "static/media/Mona-Sans-Medium.woff2": "/static/media/Mona-Sans-Medium.1d13d02c97c2fffe114f.woff2",
     "static/media/Mona-Sans-Regular.woff2": "/static/media/Mona-Sans-Regular.a47070a36b8d14d04d88.woff2",
     "index.html": "/index.html",
-    "main.67f9900b.css.map": "/static/css/main.67f9900b.css.map",
-    "main.33e0e1b6.js.map": "/static/js/main.33e0e1b6.js.map"
+    "main.fb21812f.css.map": "/static/css/main.fb21812f.css.map",
+    "main.fa9eac33.js.map": "/static/js/main.fa9eac33.js.map"
   },
   "entrypoints": [
-    "static/css/main.67f9900b.css",
-    "static/js/main.33e0e1b6.js"
+    "static/css/main.fb21812f.css",
+    "static/js/main.fa9eac33.js"
   ]
 }
