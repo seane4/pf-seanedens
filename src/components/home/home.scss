@@ -389,7 +389,7 @@
 
     @media only screen and (width < 800px) {
     
-        #Work > div > div.mobileProjectGroup {
+        #Projects > div > div.mobileProjectGroup {
             grid-template-columns: repeat(1, 1fr);
         }
 

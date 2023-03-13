@@ -14,7 +14,7 @@ function Projects() {
 
   return (
     <div className="projects">
-      <section id="Work">
+      <section id="Projects">
 
       <div className="wrapper">
         <div className={theme === "light" ? "title" : "title dark"}>

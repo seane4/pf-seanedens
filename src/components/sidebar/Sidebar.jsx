@@ -7,14 +7,14 @@ function Sidebar() {
 
   const { theme, toggleTheme } = useTheme();
 
-  let [hovered, setHovered] = useState("#BFBFBF")
+  let [hovered, setHovered] = useState("#797676")
 
   let darkModeText = "#FFFFFF"
   let lightModeText = "#111111"
   let mainColor = ""
   let dimColor = ""
-  let dimLightText = "#BFBFBF"
-  let dimDarkText = "#3d3d3d"
+  let dimLightText = "#797676"
+  let dimDarkText = "#8B8B8B"
 
   if (theme === "light") {
     mainColor = lightModeText;

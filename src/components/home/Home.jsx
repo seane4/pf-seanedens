@@ -51,7 +51,7 @@ function Home() {
           <button onClick={() => setMenuOpen(!menuOpen)} className={`close ${theme}`}>{<CloseIcon className='icon'/>}</button>
           <div className={theme === "light" ? "itemWrapper" : "itemWrapper dark"}>
             <Link offset={-200} onClick={() => setMenuOpen(!menuOpen)} smooth spy to="Home" className="item" activeClass="item active">HOME</Link>
-            <Link offset={-150} onClick={() => setMenuOpen(!menuOpen)} smooth spy to="Work" className="item">WORK</Link>
+            <Link offset={-150} onClick={() => setMenuOpen(!menuOpen)} smooth spy to="Projects" className="item">PROJECTS</Link>
             <Link offset={-150} onClick={() => setMenuOpen(!menuOpen)} smooth spy to="About" className="item">ABOUT</Link>
             <Link offset={-150} onClick={() => setMenuOpen(!menuOpen)} smooth spy to="Contact" className="item">CONTACT</Link>
           </div>

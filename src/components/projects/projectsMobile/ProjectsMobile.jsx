@@ -15,7 +15,7 @@ function ProjectsMobile() {
 
   return (
     <div className="projectsMobile">
-        <section id="Work">
+        <section id="Projects">
 
         <div className="wrapper">
             

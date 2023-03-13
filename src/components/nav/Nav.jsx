@@ -26,7 +26,7 @@ function Nav({width, menuOpen, setMenuOpen}) {
             width > 1000 ? (
               <div className="itemsLeft">
                 <Link offset={-200} smooth spy to="Home" className={`item-${theme}`} activeClass={`item-${theme} active`}>Home</Link>
-                <Link offset={-150} smooth spy to="Work" className={`item-${theme}`} activeClass={`item-${theme} active`}>Work</Link>
+                <Link offset={-150} smooth spy to="Projects" className={`item-${theme}`} activeClass={`item-${theme} active`}>Projects</Link>
                 <Link offset={-150} smooth spy to="About" className={`item-${theme}`} activeClass={`item-${theme} active`}>About</Link>
                 <Link offset={-150} smooth spy to="Contact" className={`item-${theme}`} activeClass={`item-${theme} active`}>Contact</Link>
               </div>
