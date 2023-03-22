@@ -1,6 +1,7 @@
 import "./projectsMobile.scss"
 import { ThemeProvider, useTheme } from "../../../ThemeContext";
 
+import ELC_Compact from "./ELC_PortfolioCover_Mobile_Updated.png"
 import LCI_Compact from "./LCI_Compact.png"
 import Teerly_Compact from "./Teerly_Compact.png"
 import Cente_Compact from "./Cente_Compact.png"
@@ -23,6 +24,21 @@ function ProjectsMobile() {
                 //PROJECTS
             </div>
             <div className="mobileProjectGroup">
+                <div data-aos="fade-up" data-aos-once="true" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-anchor-placement="center-bottom">
+                    <div className="projectItem">
+                        <img src={ELC_Compact}/>
+                        <div className="projectContentContainer">
+                            <div className="buttonContainer">
+                                <a target="_blank" rel="noreferrer" href="https://seane4.github.io/socircle-app/">
+                                <button className={`primary-${theme}`}>Live Demo {<CallMadeIcon className="icon"/>}</button>
+                                </a>
+                                <a target="_blank" rel="noreferrer" href="https://seane4.medium.com/socircle-case-study-estée-lauder-accessible-beauty-hackathon-b18a264893fd">
+                                <button className={`secondary-${theme}`}>Case Study {<CallMadeIcon className="icon"/>}</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div data-aos="fade-up" data-aos-once="true" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-anchor-placement="center-bottom">
                     <div className="projectItem">
                         <img src={LCI_Compact}/>

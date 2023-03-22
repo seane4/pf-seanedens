@@ -3,6 +3,7 @@ import LCIIMG_PNG from "./LCI_WebCoverPNG.png"
 import CallMadeIcon from '@mui/icons-material/CallMade'
 import TeerlyIMG_PNG from "./Teerly_WebCoverPNG.png"
 import CenteIMG_PNG from "./Cente_WebCoverPNG.png"
+import SoCircleIMG_PNG from "./ELC_PortfolioCover.png"
 import { ThemeProvider, useTheme } from "../../ThemeContext";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -21,6 +22,37 @@ function Projects() {
           //PROJECTS
         </div>
         <div className="projectGroup">
+        <div data-aos="fade-up" data-aos-once="true" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-anchor-placement="center-bottom">
+          <div className={theme === "light" ? "project" : "project dark"}>
+            <div className="projectWrapper">
+
+              <div className="content">
+                <div className="topContent">
+                  <span className={theme === "light" ? "projectTitle" : "projectTitle dark"}>
+                    SOCIRCLE - ESTÉE LAUDER
+                  </span>
+                  <span className={theme === "light" ? "desc" : "desc dark"}>
+                    A hackathon project designed and developed to enable the discovery of relevant skincare products for those with accessibility needs. Results pending.
+                  </span>
+                </div>
+                <div className="bottomContent">
+                  <div className="buttonGroup">
+                    <a target="_blank" rel="noreferrer" href="https://seane4.github.io/socircle-app/">
+                      <button className={`mainButton-${theme}`}>Live Demo {<CallMadeIcon className="icon"/>}</button>
+                    </a>
+                    <a target="_blank" rel="noreferrer" href="https://seane4.medium.com/socircle-case-study-estée-lauder-accessible-beauty-hackathon-b18a264893fd">
+                      <button className={`secondaryButton-${theme}`}>Case Study {<CallMadeIcon className="icon"/>}</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="imageContainer">
+                <img src={SoCircleIMG_PNG} />
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div data-aos="fade-up" data-aos-once="true" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-anchor-placement="center-bottom">
           <div className={theme === "light" ? "project" : "project dark"}>
             <div className="projectWrapper">

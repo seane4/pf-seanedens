@@ -207,15 +207,15 @@
         max-width: 40%;
     }
 
-    #Work > div > div.projectGroup > div:nth-child(n+0) > div > div > div.content > div.topContent > span.desc {
+    #Projects > div > div.projectGroup > div:nth-child(n+0) > div > div > div.content > div.topContent > span.desc {
         font-size: 18px;
     }
 
-    #Work > div > div.projectGroup > div:nth-child(n+0) > div > div > div.content > div.topContent > span.projectTitle {
+    #Projects > div > div.projectGroup > div:nth-child(n+0) > div > div > div.content > div.topContent > span.projectTitle {
         font-size: 28px;
     }
 
-    #Work > div > div.projectGroup > div:nth-child(1) > div > div > div.content > div.topContent > span.desc {
+    #Projects > div > div.projectGroup > div:nth-child(1) > div > div > div.content > div.topContent > span.desc {
         width: 100%;
     }
 
@@ -234,7 +234,7 @@
             font-size: 24px;
         }
 
-        #Work > div > div.projectGroup > div:nth-child(n+0) > div > div > div.content > div.topContent > span.desc {
+        #Projects > div > div.projectGroup > div:nth-child(n+0) > div > div > div.content > div.topContent > span.desc {
             width: 100%;
             font-size: 16px;
         }
@@ -251,12 +251,12 @@
             font-size: 16px;
         }
 
-        #Work > div > div.projectGroup > div:nth-child(n+0) > div > div > div.content > div.bottomContent > div > a:nth-child(n+0) > button, .projects .wrapper .projectGroup .project .projectWrapper .content .bottomContent .buttonGroup .mainButton-dark  {
+        #Projects > div > div.projectGroup > div:nth-child(n+0) > div > div > div.content > div.bottomContent > div > a:nth-child(n+0) > button, .projects .wrapper .projectGroup .project .projectWrapper .content .bottomContent .buttonGroup .mainButton-dark  {
             font-size: 14px;
             padding: 8px 16px 8px 16px;
         }
 
-        #Work > div > div.projectGroup > div:nth-child(n+0) > div > div > div.content > div.topContent > span.desc {
+        #Projects > div > div.projectGroup > div:nth-child(n+0) > div > div > div.content > div.topContent > span.desc {
             width: 100%;
         }
 
@@ -270,7 +270,7 @@
             padding: 8px 16px 8px 16px;
         }
 
-        #Work > div > div.projectGroup {
+        #Projects > div > div.projectGroup {
             gap: 30px;
         }
     }
