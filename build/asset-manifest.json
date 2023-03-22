@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fb21812f.css",
-    "main.js": "/static/js/main.fa9eac33.js",
+    "main.css": "/static/css/main.7f80302b.css",
+    "main.js": "/static/js/main.c2c4bec9.js",
     "static/media/SeanPic2Banner.png": "/static/media/SeanPic2Banner.20b8ebe7d4c9e57360d7.png",
     "static/media/Teerly_Compact.png": "/static/media/Teerly_Compact.45dbd631a0d8dfe9f693.png",
     "static/media/Cente_Compact.png": "/static/media/Cente_Compact.f2aea8623334b1e72e6b.png",
@@ -10,17 +10,19 @@
     "static/media/Teerly_WebCoverPNG.png": "/static/media/Teerly_WebCoverPNG.697cf5ca87b3c1413abc.png",
     "static/media/LCI_WebCoverPNG.png": "/static/media/LCI_WebCoverPNG.1628c9b5da2f7ce2ade5.png",
     "static/media/LCI_Compact.png": "/static/media/LCI_Compact.075d432ba02bcb0c80c1.png",
+    "static/media/ELC_PortfolioCover.png": "/static/media/ELC_PortfolioCover.85b56a1c639bca74d4ae.png",
+    "static/media/ELC_PortfolioCover_Mobile_Updated.png": "/static/media/ELC_PortfolioCover_Mobile_Updated.1a44e5a5176d18bdaa8c.png",
     "static/media/Mona-Sans-SemiBold.woff2": "/static/media/Mona-Sans-SemiBold.df2721eb898b6beb9b2d.woff2",
     "static/media/Mona-Sans-ExtraBold.woff2": "/static/media/Mona-Sans-ExtraBold.e4dce2e52e258ac8d7c8.woff2",
     "static/media/Mona-Sans-Bold.woff2": "/static/media/Mona-Sans-Bold.396862d9e0d26c04cdc9.woff2",
     "static/media/Mona-Sans-Medium.woff2": "/static/media/Mona-Sans-Medium.1d13d02c97c2fffe114f.woff2",
     "static/media/Mona-Sans-Regular.woff2": "/static/media/Mona-Sans-Regular.a47070a36b8d14d04d88.woff2",
     "index.html": "/index.html",
-    "main.fb21812f.css.map": "/static/css/main.fb21812f.css.map",
-    "main.fa9eac33.js.map": "/static/js/main.fa9eac33.js.map"
+    "main.7f80302b.css.map": "/static/css/main.7f80302b.css.map",
+    "main.c2c4bec9.js.map": "/static/js/main.c2c4bec9.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb21812f.css",
-    "static/js/main.fa9eac33.js"
+    "static/css/main.7f80302b.css",
+    "static/js/main.c2c4bec9.js"
   ]
 }
