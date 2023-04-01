@@ -29,7 +29,7 @@ function Contact() {
       <div className="wrapper">
         //CONTACT
         <div data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-once="true" data-aos-anchor-placement="center-bottom">
-          <div className={theme === "light" ? "heading" : "heading dark"}>LET'S<br/>EXCHANGE<br/>IDEAS</div>
+          <div className={theme === "light" ? "heading" : "heading dark"}>Let's Exchange Ideas</div>
         </div>
 
         <div className="formContainer">
@@ -44,7 +44,7 @@ function Contact() {
                   className={theme === "light" ? "inputClass" : "inputClass dark"} 
                   type="text"
                   onChange={(e) => setName(e.target.value)} 
-                  placeholder="Your Name" 
+                  placeholder="Full Name" 
                   id="name"
                   value={name} 
                   name="name"/>
@@ -62,7 +62,7 @@ function Contact() {
                   className={theme === "light" ? "inputClass" : "inputClass dark"} 
                   type="email" 
                   onChange={(e) => setEmail(e.target.value)} 
-                  placeholder="Your Email" 
+                  placeholder="Email Address" 
                   id="email"
                   value={email} 
                   name="email"/>
@@ -79,7 +79,7 @@ function Contact() {
                   className={theme === "light" ? "inputClass" : "inputClass dark"} 
                   type="text"
                   onChange={(e) => setCompany(e.target.value)} 
-                  placeholder="Your Company" 
+                  placeholder="Company (Optional)" 
                   id="company"
                   value={company} 
                   name="company"/>

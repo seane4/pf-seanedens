@@ -22,7 +22,7 @@ function Projects() {
           //PROJECTS
         </div>
         <div className="projectGroup">
-        <div data-aos="fade-up" data-aos-once="true" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-anchor-placement="center-bottom">
+        <div data-aos="fade-up" data-aos-once="true" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-anchor-placement="top-bottom">
           <div className={theme === "light" ? "project" : "project dark"}>
             <div className="projectWrapper">
 
@@ -63,7 +63,7 @@ function Projects() {
                     LOLCHAMPINDEX
                   </span>
                   <span className={theme === "light" ? "desc" : "desc dark"}>
-                    LoLChampIndex is a simple tool that allows League of Legends players to view basic information about in-game characters. Designed and developed for responsive viewing.
+                    LoLChampIndex is a UI exploration project that allows League of Legends players to view basic information about in-game characters. Designed and developed for responsive viewing.
                   </span>
                 </div>
                 <div className="bottomContent">
@@ -94,7 +94,7 @@ function Projects() {
                     TEER.LY IOS UX/UI
                   </span>
                   <span className={theme === "light" ? "desc" : "desc dark"}>
-                    Teer.ly is a UX/UI project I created to address the problems student groups face when discovering and attending volunteer events.
+                    Teer.ly is an iOS mobile experience concept I designed to address the problems student groups face when discovering and attending volunteer events.
                   </span>
                 </div>
                 <div className="bottomContent">
@@ -126,7 +126,7 @@ function Projects() {
                     CENTE IOS UX/UI
                   </span>
                   <span className={theme === "light" ? "desc" : "desc dark"}>
-                    Cente is a mobile experience UX/UI project I created that addresses the lack of money management tools for young couples. 
+                    Cente is an iOS mobile experience concept I designed that addresses the lack of money management tools for young couples. 
                   </span>
                 </div>
                 <div className="bottomContent">
