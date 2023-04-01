@@ -32,7 +32,7 @@ function About() {
         <div className="title">//ABOUT</div>
         
         <div className="desc">
-          Hello! I'm a self-taught designer who enjoys learning code. I come from a business background, which helps me connect the dots between things like user frustrations, competitive analysis, visual design, and technical constraints. Having an end-to-end perspective excites me because I'm an extremely curious self-learner and always looking for ways to improve my holistic design approach.
+          Hello! I'm a self-taught designer who enjoys bringing experiences to life. I come from a business background, which helps me connect the dots between things like user frustrations, competitive analysis, visual design, and technical constraints. Having an end-to-end perspective excites me because I'm an extremely curious self-learner and always looking for ways to improve my holistic design approach.
         </div>
 
         <div className="container">

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.33640af1.css",
-    "main.js": "/static/js/main.6f3c2226.js",
+    "main.js": "/static/js/main.d7070aa8.js",
     "static/media/SeanPic2Banner.png": "/static/media/SeanPic2Banner.20b8ebe7d4c9e57360d7.png",
     "static/media/Teerly_Compact.png": "/static/media/Teerly_Compact.45dbd631a0d8dfe9f693.png",
     "static/media/Cente_Compact.png": "/static/media/Cente_Compact.f2aea8623334b1e72e6b.png",
@@ -20,10 +20,10 @@
     "static/media/Mona-Sans-Regular.woff2": "/static/media/Mona-Sans-Regular.a47070a36b8d14d04d88.woff2",
     "index.html": "/index.html",
     "main.33640af1.css.map": "/static/css/main.33640af1.css.map",
-    "main.6f3c2226.js.map": "/static/js/main.6f3c2226.js.map"
+    "main.d7070aa8.js.map": "/static/js/main.d7070aa8.js.map"
   },
   "entrypoints": [
     "static/css/main.33640af1.css",
-    "static/js/main.6f3c2226.js"
+    "static/js/main.d7070aa8.js"
   ]
 }
