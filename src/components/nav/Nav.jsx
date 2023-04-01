@@ -33,14 +33,14 @@ function Nav({width, menuOpen, setMenuOpen}) {
             ) : null
           }
           <div className="itemsRight">
-            <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1ie2O8tUHI6eXPCWzZxbyhoFOniiTE8pg/view">
+            <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1C2wxtgSP40RfGwE__q6MHMBzIyBXuoXU/view?usp=sharing">
               {
                 width > 550 ? (
                 <button className={theme === "light" ? "buttonMain-light" : "buttonMain-dark"}>My Resume
                   {<CallMadeIcon className="icon"/>}
                 </button>
                 ) : 
-                  <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1ie2O8tUHI6eXPCWzZxbyhoFOniiTE8pg/view">
+                  <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1C2wxtgSP40RfGwE__q6MHMBzIyBXuoXU/view?usp=sharing">
                     <button className={theme === "light" ? "themeIcon-light" : "themeIcon-dark"}>
                       {<ContactPageIcon className="icon"/>}
                     </button>
