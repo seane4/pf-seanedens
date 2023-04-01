@@ -48,7 +48,7 @@ function About() {
                 <div className="traitWrapper">
                   <div className="traitContainer">
                     <div className="traitTitle">{<BookmarksOutlinedIcon className="icon"/>}CURIOUS</div>
-                    <div className="traitDesc">Being curious is a large part of who I am. Every day I ask questions, seek out new information, and reflect on what I already believe to be true.</div>
+                    <div className={theme === "light" ? "traitDesc" : "traitDesc dark"}>Being curious is a large part of who I am. Every day I ask questions, seek out new information, and reflect on what I already believe to be true.</div>
                   </div>
                 </div>
               </div>
@@ -59,7 +59,7 @@ function About() {
                 <div className="traitWrapper">
                   <div className="traitContainer">
                     <div className="traitTitle">{<SettingsSuggestOutlinedIcon className="icon"/>}RESOURCEFUL</div>
-                    <div className="traitDesc">In challenging environments with limited resources, I do my best to find creative solutions and work efficiently. Most times we overlook the idea of doing more with less.</div>
+                    <div className={theme === "light" ? "traitDesc" : "traitDesc dark"}>In challenging environments with limited resources, I do my best to find creative solutions and work efficiently. Most times we overlook the idea of doing more with less.</div>
                   </div>
                 </div>
               </div>
@@ -70,7 +70,7 @@ function About() {
                 <div className="traitWrapper">
                   <div className="traitContainer">
                     <div className="traitTitle">{<QueryStatsOutlinedIcon className="icon"/>}INTROSPECTIVE</div>
-                    <div className="traitDesc">It's important to me that I reflect and seek feedback to better understand my strengths and weaknesses, then use that to continually improve and develop.</div>
+                    <div className={theme === "light" ? "traitDesc" : "traitDesc dark"}>It's important to me that I reflect and seek feedback to better understand my strengths and weaknesses, then use that to continually improve and develop.</div>
                   </div>
                 </div>
               </div>
@@ -81,7 +81,7 @@ function About() {
                 <div className="traitWrapper">
                   <div className="traitContainer">
                     <div className="traitTitle">{<AirlineStopsIcon className="icon"/>}RESILIENT</div>
-                    <div className="traitDesc">Remaining focused and committed during harsh periods is a valuable part of the process for me. Things always fall in place when the time is right.</div>
+                    <div className={theme === "light" ? "traitDesc" : "traitDesc dark"}>Remaining focused and committed during harsh periods is a valuable part of the process for me. Things always fall in place when the time is right.</div>
                   </div>
                 </div>
               </div>

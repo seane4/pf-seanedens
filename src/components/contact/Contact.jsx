@@ -74,12 +74,12 @@ function Contact() {
                 </div>
                 
                 <div className="fieldBody">
-                  <label htmlFor="company" className="formTitle">Company*</label>
+                  <label htmlFor="company" className="formTitle">Company (Optional)</label>
                   <input 
                   className={theme === "light" ? "inputClass" : "inputClass dark"} 
                   type="text"
                   onChange={(e) => setCompany(e.target.value)} 
-                  placeholder="Company (Optional)" 
+                  placeholder="Company" 
                   id="company"
                   value={company} 
                   name="company"/>

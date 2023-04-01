@@ -25,6 +25,7 @@
                 background-color: white;
                 border-radius: 12px;
                 border: 1.5px solid #E4E4E4;
+                box-shadow: 0 4px 30px rgba(0, 0, 0, 0.020);
 
                 &.dark {
                     background-color: #181818;
@@ -62,6 +63,7 @@
                                 font-family: MonaSansregular;
                                 line-height: 130%;
                                 width: 80%;
+                                color: #565555;
     
                                 &.dark {
                                     color: #8D8D8D;
@@ -89,6 +91,7 @@
                                     color: white;
                                     padding: 10px 20px 10px 20px;
                                     background-color: #111;
+                                    border: 2px solid #111;
                                     border-radius: 24px;
                                     
                                     display: flex;
@@ -102,7 +105,7 @@
 
                                     &:hover {
                                         background-color: #000;
-                                        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+                                        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
                                     }
                                 }
                                 .secondaryButton-light {
@@ -150,7 +153,7 @@
 
                                     &:hover {
                                         color: #000;
-                                        box-shadow: 0 0px 15px rgba(255, 255, 255, 0.25);
+                                        box-shadow: 0 0px 15px rgba(255, 255, 255, 0.20);
                                     }
                                 }
                                 .secondaryButton-dark {
@@ -169,7 +172,7 @@
                                     transition: all 0.25s;
 
                                     &:hover {
-                                        box-shadow: 0 0px 15px rgba(255, 255, 255, 0.25);
+                                        box-shadow: 0 0px 15px rgba(255, 255, 255, 0.20);
                                     }
                                 }
                             }
