@@ -4,6 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import seanheadshot from "./SeanHeadshot.png"
 import { useEffect } from "react";
+import { Link } from "react-scroll";
 
 function Hero() {
 
@@ -29,7 +30,7 @@ function Hero() {
                 I combine business, design, and front-end development to create human-centered experiences. Currently seeking opportunities.
               </div>
             </div>
-            <a href="#Contact" className={theme === "light" ? "buttonMain-light" : "buttonMain-dark"} >Let's Chat</a>
+            <Link smooth spy to="Contact" className={theme === "light" ? "buttonMain-light" : "buttonMain-dark"} >Let's Chat</Link>
         </div>
         <div className="rightside"></div>
         </section>
